@@ -102,6 +102,6 @@ fetch(url)
   const card = document.createElement('div');
   card.style.textAlign = 'center';
   card.style.margin = '0 auto'
-  card.innerHTML = 'No information avaiable at this time!'
+  card.innerHTML = 'No information available at this time!'
   div.appendChild(card);
 })

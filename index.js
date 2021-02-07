@@ -1,7 +1,3 @@
-function bgChange(bg) {
-    document.body.style.background = bg;
-}
-  
 //game api call below
 var api = config.api;
 

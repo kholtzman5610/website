@@ -14,7 +14,7 @@ const month = convertToTwoDigits(date.getMonth() + 1)
 const day = convertToTwoDigits(date.getDate())
 const today = year + '-' + month + '-' + day
 const nextYear = year + 1 + '-' + month + '-' + day;
-const url = `https://rawg.io/api/users/MysticOfAngelz/games`
+const url = `https://rawg.io/api/users/MysticOfAngelz/favorites`
 
 const handleResponse = (response) => {
 	return response.json()

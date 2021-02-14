@@ -199,12 +199,6 @@ var text2 = document.getElementById('text2')
 
 
 var pText = new WordShuffler(text, {
-	textColor: '#fff',
-	timeOffset: 2
-});
-
-
-var pText = new WordShuffler(text2, {
-	textColor: '#fff',
+	textColor: '#0000ff',
 	timeOffset: 2
 });
